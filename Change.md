@@ -4,7 +4,10 @@
 - [x] study html a tag
 
 ### 0.2.0
-- [ ] search-console
+- [x] search-console
 
 ### 0.3.0
-- [ ] naver searchadvisor
+- [x] naver searchadvisor
+
+### 0.4.0
+- [ ] [SEO NAVER](https://github.com/ldh0308/ldh0308.github.io/issues/6)
