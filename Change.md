@@ -16,4 +16,7 @@
 - [x] robots  fail
 
 ### 0.4.2
-- [ ] add robots
+- [x] add robots
+
+### 0.4.3
+- [ ] add OpenGrah
