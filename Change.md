@@ -10,4 +10,10 @@
 - [x] naver searchadvisor
 
 ### 0.4.0
-- [ ] [SEO NAVER](https://github.com/ldh0308/ldh0308.github.io/issues/6)
+- [x] [SEO NAVER](https://github.com/ldh0308/ldh0308.github.io/issues/6)
+
+### 0.4.1
+- [x] robots  fail
+
+### 0.4.2
+- [ ] add robots
