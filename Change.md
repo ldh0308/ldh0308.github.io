@@ -4,10 +4,7 @@
 - [x] study html a tag
 
 ### 0.2.0
-- [x] search-console
+- [ ] search-console
 
 ### 0.3.0
-- [x] naver searchadvisor
-
-### 0.4.1
-- [ ] naver robots fix
+- [ ] naver searchadvisor
