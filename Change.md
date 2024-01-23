@@ -23,3 +23,6 @@
 
 ### 0.5.0
 - [ ] firebase @ dev
+
+### 0.6.0
+- [ ] study CSS
