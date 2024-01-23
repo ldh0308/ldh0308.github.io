@@ -22,4 +22,7 @@
 - [x] add OpenGrah
 
 ### 0.5.0
-- [ ] firebase @ dev
+- [x] firebase @ dev
+
+### 0.6.0
+- [ ] study CSS
