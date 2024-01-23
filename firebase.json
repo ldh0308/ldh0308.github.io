@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "ldh0308-dev",
+    "public": "/",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
