@@ -19,4 +19,7 @@
 - [x] add robots
 
 ### 0.4.3
-- [ ] add OpenGrah
+- [x] add OpenGrah
+
+### 0.5.0
+- [ ] firebase @ dev
