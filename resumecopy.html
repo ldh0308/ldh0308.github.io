@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="utf-8">
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Jua&display=swap" rel="stylesheet"> -->
+	<title>이력서</title>
+	<style>
+		@font-face {
+			font-family: 'GmarketSansLight';
+			src: url('assets/fonts/GmarketSansTTFLight.ttf') format('truetype');
+		}
+
+		@font-face {
+			font-family: '양진체';
+			src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+		}
+
+		.vertical-align-container {
+			height: 200px;
+			/* 높이를 원하는 값으로 조절하세요. */
+			line-height: 200px;
+			/* 높이와 동일한 값을 사용합니다. */
+			text-align: center;
+		}
+
+		.vertical-align-container span {
+			vertical-align: middle;
+			display: inline-block;
+		}
+
+		.image-container {
+			text-align: center;
+			align-items: center;
+			/* 부모 요소를 가운데 정렬 */
+		}
+
+		.rounded-image {
+			width: 200px;
+			/* 이미지의 너비 설정 */
+			height: 200px;
+			/* 이미지의 높이 설정 */
+			border-radius: 60%;
+			/* 50%의 원형 모양으로 클리핑 */
+			overflow: hidden;
+			/* 클리핑된 부분을 보여주기 위해 overflow 설정 */
+		}
+
+		.rounded-image img {
+			width: 100%;
+			/* 이미지가 부모 요소의 영역을 채우도록 설정 */
+			height: 100%;
+			/* 이미지가 부모 요소의 영역을 채우도록 설정 */
+			object-fit: cover;
+			/* 이미지를 가운데에 맞추고 부모 요소에 맞게 잘라냄 */
+		}
+
+		.intro-text {
+			text-align: center;
+			/* 텍스트를 가운데 정렬 */
+			color: white;
+		}
+
+		body {
+			/* font-family: 'Do Hyeon', sans-serif; */
+			/* 사용하고자 하는 폰트명을 여기에 입력하세요 */
+			font-family: '양진체', sans-serif;
+		}
+
+		.font-style {
+			font-size: xx-large;
+		}
+
+		p {
+			text-indent: 40px
+		}
+
+		li {
+			text-indent: 60px;
+			font-size: x-large;
+		}
+
+		h1 {
+			letter-spacing: 5px;
+			font-family: '양진체', sans-serif;
+			font-size: xxx-large;
+			border-bottom: 2px solid#333;
+			padding-bottom: 5px;
+			width: 80%;
+		}
+
+		.indent {
+			text-indent: 20px;
+			color: white;
+		}
+	</style>
+</head>
+
+<body>
+	<div>
+		<div class="vertical-align-container ">
+			<div class="image-container">
+				<div class="rounded-image">
+					<img src="\images\증명사진.jpg" alt="image">
+				</div>
+			</div>
+			<div class="intro-text">
+				<h2>CONTACT</h2>
+			</div>
+			<div class="intro-text">
+				<hr width="100px">
+				<p>📖 ldh0308@naver.com</p>
+				<p>🖥️ https://ldh0308.github.io</p>
+			</div>
+		</div>
+	</div>
+	<div class="right">
+		<h1>&nbsp; 말이 통하는 개발자 이동혁</h1>
+		<p class="font-style">프로필</p>
+		<li>수년간의 커뮤니케이션 경험으로 프로젝트의 협업을 잘 할 수 있는 신입 개발자 이동혁입니다.</li>
+		<li>다양한 직군에서의 업무 경험으로 인하여 신규 업무에 대한 진입 장벽이 낮습니다.</li>
+		<li>팀 간의 협업 시 서로의 니즈에 대한 부분을 빠르게 파악 할 수 있습니다.</li>
+
+		<p class="font-style">경력</p>
+		<li>2022.08 ~ 2023. 09 (주)굿지앤</li>
+		<li>2019.06 ~ 2022. 03 가자안전센터(주)</li>
+		<li>2018.01 ~ 2019. 01 (주)골인(GoalInCo.,Ltd)</li>
+		<li>2017.04 ~ 2017. 05 (주)킹스맨 -오산세교자이(경기)인테리어</li>
+
+		<p class="font-style">학력</p>
+		<li>2023.10 ~ 진행 중 비욘드한화시스템 벡엔드</li>
+		<li>2010.03 ~ 2016.02 세명대학교 부동산학과</li>
+	</div>
+	</div>
+</body>
+
+</html>
