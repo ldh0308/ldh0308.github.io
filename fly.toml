@@ -1,10 +1,10 @@
-# fly.toml app configuration file generated for ldh0308-github-io on 2024-02-15T14:24:54+09:00
+# fly.toml app configuration file generated for ldh0308-github-io on 2024-02-16T01:52:42+09:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
 app = 'ldh0308-github-io'
-primary_region = 'nrt'
+primary_region = 'sin'
 
 [build]
 
@@ -17,6 +17,4 @@ primary_region = 'nrt'
   processes = ['app']
 
 [[vm]]
-  cpu_kind = 'shared'
-  cpus = 1
-  memory_mb = 256
+  size = 'shared-cpu-1x'
