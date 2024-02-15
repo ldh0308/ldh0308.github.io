@@ -3,7 +3,7 @@
 echo "start pull-->"
 date "+%Y-%m-%d %H:%M:%S"
 
-cd /home/donghyuk/code/ldh0308.github.io
+cd /var/www/html
 git pull
 
 echo "<--end pull"

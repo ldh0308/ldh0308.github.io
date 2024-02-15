@@ -1,2 +1,2 @@
-* * * * * sh /home/donghyuk/code/ldh0308.github.io/pull.sh >> /home/donghyuk/code/ldh0308.github.io/pull.log 2>&1
+* * * * * sh /var/www/html//pull.sh >> /var/log/pull.log 2>&1
 # new crontab file is missing newline before EOF, can't install.
